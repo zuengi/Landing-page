@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-section {
+
+    background-color: #1F2937;
+}
+
+.navbar {
+
+    display: flex;
+}
+
+#header-logo {
+
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 15px;
+}
+
+.navbar-right a, .hero-text p {
+
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+ul {
+
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+
+}
+
+.navbar-left, .navbar-right {
+
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+   
+}
+
+.hero-text, .hero-image {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.hero-section {
+
+    display: flex;
+    margin: 50px;
+    position: relative;
+    margin-left: 25%;
+}
+.hero-image {
+
+    margin: 50px;
+    margin-left: 0;
+    margin-right: 13%;
+
+}
+
+
+
+.signup_button {
+
+    background-color: #3882d6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border-radius: 6px;
+    border: none;
+   
+
+}
+
+
+
+.hero-text {
+    display: flex;
+    flex-direction: column; /* Ensures the content (heading, paragraph, button) stack vertically */
+    justify-content: center;
+    align-items: flex-start; /* Aligns items to the start (left) of the container */
+    width: 50%;
+    margin-left: 0; /* Removed margin-left to prevent unnecessary shifts */
+    margin-bottom: 7%;
+  }
+
+.signup_button {
+    background-color: #3882d6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px; /* Adds some space above the button */
+    align-self: flex-start; /* Aligns the button to the start (left) of the text */
+}
+  
