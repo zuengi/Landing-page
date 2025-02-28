@@ -211,7 +211,8 @@ ul {
     display: flex;
     justify-content: center;
     background-color: white;
-    margin: 50px;
+    margin: 100px;
+
 }
 
 .blue-box {
@@ -262,5 +263,19 @@ ul {
 .left-box p {
 
     font-size: 18px;
+    color: white;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.footer.text {
+
     color: white;
 }
