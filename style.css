@@ -38,6 +38,17 @@ body {
 
 }
 
+.navbar-right a {
+
+    transition: color 0.3s ease;
+}
+
+.navbar-right a:hover{
+
+    color: lightblue;
+}
+
+
 ul {
 
     display: flex;
@@ -163,4 +174,34 @@ ul {
     margin-top: 10px;
     text-decoration: none;
     text-align: center;
+}
+
+.third-section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height:400px ;
+}
+
+.third-text {
+
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+.thor {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 32%;
+   
 }
