@@ -205,3 +205,62 @@ ul {
     margin-right: 32%;
    
 }
+
+.last-section {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 50px;
+}
+
+.blue-box {
+
+    padding: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.signup_button.second {
+
+    background-color: #3882d6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border-radius: 6px;
+    border: 2px solid white;
+    margin-top: 20px; /* Adds some space above the button */
+    
+}
+
+.signup_button.second:hover {
+
+    background-color: #98a8b2;
+}
+
+.left-box {
+
+    margin-left: 10%;
+}
+
+.right-box {
+
+    margin-right: 15%;
+}
+
+.left-box h2 {
+
+    font-size: 24px;
+    color: white;
+}
+
+.left-box p {
+
+    font-size: 18px;
+    color: white;
+}
